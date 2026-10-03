@@ -11,15 +11,15 @@ Alcance: desde la descarga de datos hasta los primeros modelos. Clustering/PCA, 
 ## Paso 0. Preparación del entorno
 - [x] Seleccionar el `.venv` como kernel de los notebooks.
 - [x] Ajustar `requirements.txt` a lo que realmente se usa (con versiones).
-- [ ] Definir semilla global (`RANDOM_STATE = 42`) en la celda de configuración del notebook 01.
-- [ ] Definir rutas (`data/raw`, `data/processed`, `models`) en esa misma celda.
+- [x] Definir semilla global (`RANDOM_STATE = 42`) en la celda de configuración del notebook 01.
+- [x] Definir rutas (`data/raw`, `data/processed`, `models`) en esa misma celda.
 
 ## Paso 1. Descarga y registro de datos (Problema y dataset, 3 pts)
-- [ ] Descargar con `kagglehub.dataset_download("harlfoxem/housesalesprediction")`.
-- [ ] Copiar el CSV a `data/raw/` sin modificarlo (los datos crudos son inmutables).
-- [ ] Anotar en `data/README.md`: fuente, URL, licencia (verificar en la página de Kaggle), nº de filas y columnas, período (aprox. mayo 2014 – mayo 2015), variable objetivo (`price`).
-- [ ] Redactar el diccionario de variables (`id`, `date`, `price`, `bedrooms`, `bathrooms`, `sqft_living`, `sqft_lot`, `floors`, `waterfront`, `view`, `condition`, `grade`, `sqft_above`, `sqft_basement`, `yr_built`, `yr_renovated`, `zipcode`, `lat`, `long`, `sqft_living15`, `sqft_lot15`).
-- [ ] Documentar limitaciones conocidas: un solo condado, un solo año, solo ventas cerradas (no precio de oferta), sin variables de entorno (colegios, criminalidad, etc.).
+- [x] Descargar con `kagglehub.dataset_download("harlfoxem/housesalesprediction")`.
+- [x] Copiar el CSV a `data/raw/` sin modificarlo (los datos crudos son inmutables).
+- [x] Anotar en `data/README.md`: fuente, URL, licencia (pendiente de verificar en la página de Kaggle), nº de filas y columnas, período (aprox. mayo 2014 – mayo 2015), variable objetivo (`price`).
+- [x] Redactar el diccionario de variables (`id`, `date`, `price`, `bedrooms`, `bathrooms`, `sqft_living`, `sqft_lot`, `floors`, `waterfront`, `view`, `condition`, `grade`, `sqft_above`, `sqft_basement`, `yr_built`, `yr_renovated`, `zipcode`, `lat`, `long`, `sqft_living15`, `sqft_lot15`).
+- [x] Documentar limitaciones conocidas: un solo condado, un solo año, solo ventas cerradas (no precio de oferta), sin variables de entorno (colegios, criminalidad, etc.).
 
 ## Paso 2. Definición del problema (Problema y dataset, 3 pts)
 Notebook: `notebooks/01_problema_y_datos.ipynb`
