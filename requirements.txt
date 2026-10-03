@@ -1,20 +1,22 @@
-numpy
-pandas
-scipy
-matplotlib
-seaborn
-plotly
-scikit-learn
-xgboost
-jupyterlab
-ipykernel
-joblib
-# TF1
-shap
-optuna
-mlflow
-umap-learn
-streamlit
-fastapi
-uvicorn
-folium
+# Entorno de referencia: Python 3.12
+# Datos
+kagglehub==1.0.2
+numpy==2.4.4
+pandas==3.0.3
+scipy==1.17.1
+# Visualización
+matplotlib==3.10.9
+seaborn==0.13.2
+plotly==6.7.0
+# Modelado
+scikit-learn==1.8.0
+xgboost==3.2.0
+joblib==1.5.3
+# Notebooks
+ipykernel==7.2.0
+# TF1 (experimentación, interpretabilidad, despliegue)
+optuna==4.8.0
+shap==0.51.0
+streamlit==1.58.0
+fastapi==0.142.0
+uvicorn==0.50.0

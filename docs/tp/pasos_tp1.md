@@ -9,10 +9,10 @@ Alcance: desde la descarga de datos hasta los primeros modelos. Clustering/PCA, 
 ---
 
 ## Paso 0. Preparación del entorno
-- [ ] Seleccionar el `.venv` como kernel de los notebooks.
-- [ ] Ajustar `requirements.txt` a lo que realmente se usa (con versiones).
-- [ ] Definir semilla global (`RANDOM_STATE = 42`) en `src/config.py`.
-- [ ] Crear `src/config.py` con rutas (`data/raw`, `data/processed`, `models`).
+- [x] Seleccionar el `.venv` como kernel de los notebooks.
+- [x] Ajustar `requirements.txt` a lo que realmente se usa (con versiones).
+- [ ] Definir semilla global (`RANDOM_STATE = 42`) en la celda de configuración del notebook 01.
+- [ ] Definir rutas (`data/raw`, `data/processed`, `models`) en esa misma celda.
 
 ## Paso 1. Descarga y registro de datos (Problema y dataset, 3 pts)
 - [ ] Descargar con `kagglehub.dataset_download("harlfoxem/housesalesprediction")`.
