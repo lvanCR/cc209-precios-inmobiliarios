@@ -1,0 +1,20 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+plotly
+scikit-learn
+xgboost
+jupyterlab
+ipykernel
+joblib
+# TF1
+shap
+optuna
+mlflow
+umap-learn
+streamlit
+fastapi
+uvicorn
+folium
