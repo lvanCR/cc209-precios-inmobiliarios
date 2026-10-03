@@ -1,4 +1,4 @@
-# Pasos del proyecto hasta el TP1 (semana 7)
+﻿# Pasos del proyecto hasta el TP1 (semana 7)
 
 Dataset: **King County House Sales** (`harlfoxem/housesalesprediction`, Kaggle).
 Entorno: `D:\Topicos de computacion\.venv` (Python 3.12).
@@ -23,13 +23,13 @@ Alcance: desde la descarga de datos hasta los primeros modelos. Clustering/PCA, 
 
 ## Paso 2. Definición del problema (Problema y dataset, 3 pts)
 Notebook: `notebooks/01_problema_y_datos.ipynb`
-- [ ] Contexto y necesidad (tasación de viviendas, detección de precios fuera de mercado).
-- [ ] Unidad de análisis: una venta de vivienda.
-- [ ] Pregunta principal, concreta. Borrador:
+- [x] Contexto y necesidad (tasación de viviendas, detección de precios fuera de mercado).
+- [x] Unidad de análisis: una venta de vivienda.
+- [x] Pregunta principal, concreta. Borrador:
   > ¿Con qué error puede estimarse el precio de venta de una vivienda en King County a partir de sus características físicas y su ubicación, y qué ventas se desvían de forma anómala de lo que el modelo espera?
-- [ ] Tipo de problema: regresión (principal) + detección de anomalías basada en residuos (secundario).
-- [ ] Criterios de utilidad: definir un umbral antes de modelar (por ejemplo, error mediano relativo menor al X % y mejora clara sobre el baseline).
-- [ ] Qué NO se pretende afirmar (el modelo predice precio de cierre, no valor "justo").
+- [x] Tipo de problema: regresión (principal) + detección de anomalías basada en residuos (secundario).
+- [x] Criterios de utilidad: definir un umbral antes de modelar (por ejemplo, error mediano relativo menor al X % y mejora clara sobre el baseline).
+- [x] Qué NO se pretende afirmar (el modelo predice precio de cierre, no valor "justo").
 
 ## Paso 3. Carga y auditoría inicial (Calidad y preparación, 4 pts)
 Notebook: `notebooks/02_eda.ipynb` (inicio)
