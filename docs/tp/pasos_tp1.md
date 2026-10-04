@@ -81,9 +81,9 @@ Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
 - [x] Guardar el pipeline con `joblib` en `models/`.
 
 ## Paso 8. Baseline (Baseline, modelos y evaluación, 3 pts)
-- [ ] `DummyRegressor(strategy="median")` como piso absoluto.
-- [ ] Un baseline de dominio: regresión lineal simple con `sqft_living`, o precio mediano por `zipcode`.
-- [ ] Reportar sus métricas con el mismo protocolo que los modelos.
+- [x] `DummyRegressor(strategy="median")` como piso absoluto.
+- [x] Un baseline de dominio: regresión lineal simple con `sqft_living`, o precio mediano por `zipcode`.
+- [x] Reportar sus métricas con el mismo protocolo que los modelos.
 
 ## Paso 9. Modelos preliminares (Baseline, modelos y evaluación, 3 pts)
 - [ ] Mínimo **dos** modelos comparables. Propuesta:
