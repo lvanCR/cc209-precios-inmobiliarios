@@ -12,8 +12,9 @@ plotly==6.7.0
 scikit-learn==1.8.0
 xgboost==3.2.0
 joblib==1.5.3
-# Notebooks
+# Notebooks (ejecución en terminal con jupyter nbconvert)
 ipykernel==7.2.0
+nbconvert==7.17.1
 # TF1 (experimentación, interpretabilidad, despliegue)
 optuna==4.8.0
 shap==0.51.0

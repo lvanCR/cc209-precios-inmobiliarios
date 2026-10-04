@@ -121,13 +121,13 @@ Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
   - tabla de evolución TP1 → TF1.
 
 ## Paso 13. Entregables del TP1
-- [ ] Notebooks 01–04 ejecutados de principio a fin, con resultados visibles.
-- [ ] `README.md` con problema, fuente de datos, instrucciones de ejecución y estructura.
-- [ ] `requirements.txt` actualizado.
-- [ ] Matriz de decisiones de herramientas (`docs/decisiones_herramientas.md`) con las columnas EDA, Preparación y Modelamiento llenas.
-- [ ] Presentación en PDF o PPTX: **10 min** de exposición + 5 de preguntas, con todos los integrantes participando. Priorizar problema, evidencia, decisiones y resultados, y pocos bloques de código.
-- [ ] Declaración breve de uso de IA generativa.
-- [ ] Acceso del docente al repositorio.
+- [x] Notebooks 01–04 ejecutados de principio a fin, con resultados visibles.
+- [x] `README.md` con problema, fuente de datos, instrucciones de ejecución y estructura.
+- [x] `requirements.txt` actualizado.
+- [x] Matriz de decisiones de herramientas (`docs/decisiones_herramientas.md`) con las columnas EDA, Preparación y Modelamiento llenas.
+- [ ] Presentación en PDF o PPTX: **10 min** de exposición + 5 de preguntas, con todos los integrantes participando. Priorizar problema, evidencia, decisiones y resultados, y pocos bloques de código. _(a cargo del grupo, manual)_
+- [ ] Declaración breve de uso de IA generativa. _(borrador en el README; el grupo debe revisarla y confirmarla)_
+- [ ] Acceso del docente al repositorio. _(a cargo del grupo, en GitHub)_
 
 ---
 
