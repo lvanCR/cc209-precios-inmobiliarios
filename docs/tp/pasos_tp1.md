@@ -71,14 +71,14 @@ Para cada punto: detectar → decidir → justificar → registrar.
 
 ## Paso 7. Pipeline reproducible (Flujo reproducible, 2 pts)
 Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
-- [ ] `ColumnTransformer` con ramas diferenciadas:
+- [x] `ColumnTransformer` con ramas diferenciadas:
   - numéricas asimétricas → `log1p` + `StandardScaler` (para modelos lineales);
   - numéricas restantes → escalado (solo si el modelo lo requiere);
   - categóricas (`zipcode`, `condition`, `grade`) → `OneHotEncoder(handle_unknown="ignore")` o codificación ordinal según el caso;
   - binarias → paso directo.
-- [ ] `Pipeline` = preprocesamiento + modelo, de modo que `fit` solo ve train.
-- [ ] Objetivo transformado con `TransformedTargetRegressor` (`log` / `exp`).
-- [ ] Guardar el pipeline con `joblib` en `models/`.
+- [x] `Pipeline` = preprocesamiento + modelo, de modo que `fit` solo ve train.
+- [x] Objetivo transformado con `TransformedTargetRegressor` (`log` / `exp`).
+- [x] Guardar el pipeline con `joblib` en `models/`.
 
 ## Paso 8. Baseline (Baseline, modelos y evaluación, 3 pts)
 - [ ] `DummyRegressor(strategy="median")` como piso absoluto.
