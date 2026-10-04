@@ -61,13 +61,13 @@ Para cada punto: detectar → decidir → justificar → registrar.
 - [x] Guardar el dataset limpio en `data/interim/` y registrar cada decisión en una tabla (problema, evidencia, decisión, justificación, riesgo).
 
 ## Paso 6. Separación de datos y control de leakage (Split y leakage, 2 pts)
-- [ ] Estrategia: partición **train / validation / test** (por ejemplo 70/15/15) o **train/test + validación cruzada** sobre train. Justificar la elección.
-- [ ] Evitar fuga por ventas repetidas: que un mismo `id` quede en un solo conjunto (`GroupShuffleSplit` / `GroupKFold`).
-- [ ] Decidir si se justifica un split temporal (entrenar con ventas anteriores y probar con posteriores) y discutir por qué sí o no: el período es solo de un año.
-- [ ] Hacer el split **antes** de ajustar cualquier transformación (escaladores, codificadores, imputadores).
-- [ ] No usar el conjunto de test hasta la evaluación final.
-- [ ] Revisar variables que podrían filtrar información del objetivo (por ejemplo, agregados de precio por zona calculados con todos los datos). Si se usan, calcularlos solo con train.
-- [ ] Guardar los índices de cada partición para poder reproducirla.
+- [x] Estrategia: partición **train / validation / test** (por ejemplo 70/15/15) o **train/test + validación cruzada** sobre train. Justificar la elección.
+- [x] Evitar fuga por ventas repetidas: que un mismo `id` quede en un solo conjunto (`GroupShuffleSplit` / `GroupKFold`).
+- [x] Decidir si se justifica un split temporal (entrenar con ventas anteriores y probar con posteriores) y discutir por qué sí o no: el período es solo de un año.
+- [x] Hacer el split **antes** de ajustar cualquier transformación (escaladores, codificadores, imputadores).
+- [x] No usar el conjunto de test hasta la evaluación final.
+- [x] Revisar variables que podrían filtrar información del objetivo (por ejemplo, agregados de precio por zona calculados con todos los datos). Si se usan, calcularlos solo con train.
+- [x] Guardar los índices de cada partición para poder reproducirla.
 
 ## Paso 7. Pipeline reproducible (Flujo reproducible, 2 pts)
 Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
