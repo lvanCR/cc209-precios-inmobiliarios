@@ -63,7 +63,7 @@ Intervalos del 95 % (bootstrap, test): MdAPE de XGBoost 8.2 %–9.1 %; reducció
 
 ## Qué debe quedar claro en el informe
 - **Evidencia, interpretación e hipótesis están separadas** en los notebooks: respetar esa distinción.
-- **El umbral de utilidad se revisó:** el baseline por zona ya cumplía MdAPE ≤ 15 %, por lo que el criterio que manda es la mejora relativa de al menos 15 % sobre el mejor baseline (propuesta pendiente de validar por el grupo).
+- **El umbral de utilidad se revisó:** el baseline por zona ya cumplía MdAPE ≤ 15 %, por lo que el criterio que manda es la mejora relativa de al menos 15 % sobre el mejor baseline, medida en MAE y en MdAPE (criterio aceptado por el grupo).
 - **RF y XGBoost empatan en MdAPE;** la diferencia de MAE (~4 900 USD) es de una sola partición.
 - **Qué no puede concluirse:** que el modelo funcione con ventas futuras o de otras zonas; que las variables importantes causen el precio; que las ventas marcadas sean anomalías reales.
 - **El test se usó una vez.** No debe usarse para decidir nada en el TF1.

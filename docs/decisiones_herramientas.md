@@ -29,4 +29,4 @@ La columna TF1 se completa con lo que efectivamente se haga; hoy contiene lo pre
 | Modelo(s) | Ridge, Random Forest y XGBoost con hiperparámetros por defecto o casi por defecto | _por definir_ (hiperparámetros optimizados) | RF y XGBoost empatan en MdAPE; no hay ajuste |
 | Métricas | MAE, RMSE, R², MdAPE y % dentro de ±20 %, con *bootstrap* sobre una partición | _por definir_ (validación cruzada agrupada) | Las diferencias entre modelos se midieron en una sola partición |
 | Validación | Split 70/15/15 agrupado por `id` | _por definir_ (CV agrupada + prueba temporal) | El split aleatorio no mide el desempeño con ventas futuras |
-| Otras decisiones | Umbral de utilidad: mejora de al menos 15 % relativo sobre el mejor baseline (propuesta) | _por definir_ | El umbral inicial (MdAPE ≤ 15 %) lo cumplía una regla sin aprendizaje |
+| Otras decisiones | Umbral de utilidad: mejora de al menos 15 % relativo sobre el mejor baseline, en MAE y en MdAPE (aceptado por el grupo) | _por definir_ | El umbral inicial (MdAPE ≤ 15 %) lo cumplía una regla sin aprendizaje |

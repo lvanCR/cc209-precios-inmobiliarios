@@ -17,7 +17,7 @@ Alcance: desde la descarga de datos hasta los primeros modelos. Clustering/PCA, 
 ## Paso 1. Descarga y registro de datos (Problema y dataset, 3 pts)
 - [x] Descargar con `kagglehub.dataset_download("harlfoxem/housesalesprediction")`.
 - [x] Copiar el CSV a `data/raw/` sin modificarlo (los datos crudos son inmutables).
-- [x] Anotar en `data/README.md`: fuente, URL, licencia (pendiente de verificar en la página de Kaggle), nº de filas y columnas, período (aprox. mayo 2014 – mayo 2015), variable objetivo (`price`).
+- [x] Anotar en `data/README.md`: fuente, URL, licencia (la indicada en la página del dataset en Kaggle), nº de filas y columnas, período (aprox. mayo 2014 – mayo 2015), variable objetivo (`price`).
 - [x] Redactar el diccionario de variables (`id`, `date`, `price`, `bedrooms`, `bathrooms`, `sqft_living`, `sqft_lot`, `floors`, `waterfront`, `view`, `condition`, `grade`, `sqft_above`, `sqft_basement`, `yr_built`, `yr_renovated`, `zipcode`, `lat`, `long`, `sqft_living15`, `sqft_lot15`).
 - [x] Documentar limitaciones conocidas: un solo condado, un solo año, solo ventas cerradas (no precio de oferta), sin variables de entorno (colegios, criminalidad, etc.).
 

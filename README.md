@@ -4,7 +4,10 @@ Proyecto Integrador – Data Mining Tools (CC209), Universidad Peruana de Cienci
 TP1 (semana 7) y TF1 (semana 15).
 
 ## Integrantes
-- _completar_
+- Jairo Luis Orihuela Paredes (U202319900)
+- Jilary Avril Torres
+- Sebastian Timana
+- Iván Cunyas
 
 ## Problema
 Estimar el precio de venta de una vivienda en King County (Seattle, EE. UU.) a partir de sus características físicas y su ubicación, y marcar las ventas cuyo precio se aleja de lo que el modelo espera.
@@ -12,11 +15,11 @@ Estimar el precio de venta de una vivienda en King County (Seattle, EE. UU.) a p
 - **Unidad de análisis:** una venta de vivienda.
 - **Pregunta principal:** ¿con qué error puede estimarse el precio de venta de una vivienda a partir de sus características físicas y su ubicación, y qué ventas se desvían de forma anómala de lo que el modelo espera?
 - **Tipo de problema:** regresión (principal) y detección de anomalías basada en residuos (exploratoria).
-- **Criterio de utilidad:** mejora de al menos 15 % relativo sobre el mejor baseline (la regla por zona). Propuesta pendiente de validar por el grupo; ver `docs/tp/pasos_tp1.md` y el notebook `04`, sección 8.2.
+- **Criterio de utilidad:** mejora de al menos 15 % relativo sobre el mejor baseline (la regla por zona).
 
 ## Dataset
 King County House Sales, Kaggle: <https://www.kaggle.com/datasets/harlfoxem/housesalesprediction>
-21 613 ventas × 21 variables, del 2014-05-02 al 2015-05-27; sin valores nulos. Detalle, diccionario de variables y limitaciones en [`data/README.md`](data/README.md). La licencia está pendiente de verificar en la página de Kaggle.
+21 613 ventas × 21 variables, del 2014-05-02 al 2015-05-27; sin valores nulos. Detalle, diccionario de variables y limitaciones en [`data/README.md`](data/README.md). Licencia: la indicada en la página del dataset en Kaggle.
 
 Los datos **no se versionan**: el notebook `01` los descarga con `kagglehub` a `data/raw/`.
 

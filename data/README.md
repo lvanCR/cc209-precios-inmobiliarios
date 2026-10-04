@@ -2,7 +2,7 @@
 
 - **Fuente / URL:** King County House Sales, Kaggle — https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
 - **Archivo:** `data/raw/kc_house_data.csv` (no se versiona; se descarga con `kagglehub`, ver `notebooks/01_problema_y_datos.ipynb`)
-- **Licencia:** por verificar en la página de Kaggle antes de la entrega.
+- **Licencia:** la indicada en la página del dataset en Kaggle (*House Sales in King County, USA*, datos de ventas de King County, WA).
 - **Observaciones x variables:** 21 613 x 21
 - **Período:** 2014-05-02 a 2015-05-27
 - **Variable objetivo:** `price` (USD)
