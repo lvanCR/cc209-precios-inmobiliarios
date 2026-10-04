@@ -33,9 +33,9 @@ Notebook: `notebooks/01_problema_y_datos.ipynb`
 
 ## Paso 3. Carga y auditoría inicial (Calidad y preparación, 4 pts)
 Notebook: `notebooks/02_eda.ipynb` (inicio)
-- [ ] `shape`, `dtypes`, `describe()`, vistazo a las primeras filas.
-- [ ] Convertir `date` a fecha; derivar año/mes de venta (solo en análisis, no tocar el crudo).
-- [ ] Verificar la unicidad de `id`: hay viviendas vendidas más de una vez (ventas repetidas). Esto afecta el split (ver Paso 6).
+- [x] `shape`, `dtypes`, `describe()`, vistazo a las primeras filas.
+- [x] Convertir `date` a fecha; derivar año/mes de venta (solo en análisis, no tocar el crudo).
+- [x] Verificar la unicidad de `id`: hay viviendas vendidas más de una vez (ventas repetidas). Esto afecta el split (ver Paso 6).
 
 ## Paso 4. EDA guiado por preguntas (EDA, 4 pts)
 Notebook: `notebooks/02_eda.ipynb`
