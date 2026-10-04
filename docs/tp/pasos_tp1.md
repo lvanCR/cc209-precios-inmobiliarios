@@ -86,12 +86,12 @@ Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
 - [x] Reportar sus métricas con el mismo protocolo que los modelos.
 
 ## Paso 9. Modelos preliminares (Baseline, modelos y evaluación, 3 pts)
-- [ ] Mínimo **dos** modelos comparables. Propuesta:
+- [x] Mínimo **dos** modelos comparables. Propuesta:
   1. Modelo lineal regularizado (`Ridge`) como referencia interpretable.
   2. `RandomForestRegressor`.
   3. `XGBRegressor` (opcional en TP1; se puede dejar para el TF1).
-- [ ] Hiperparámetros por defecto o una búsqueda mínima. La optimización sistemática (Optuna, MLflow) es del TF1.
-- [ ] Mismos datos, mismo split y misma semilla para todos, para que la comparación sea justa.
+- [x] Hiperparámetros por defecto o una búsqueda mínima. La optimización sistemática (Optuna, MLflow) es del TF1.
+- [x] Mismos datos, mismo split y misma semilla para todos, para que la comparación sea justa.
 
 ## Paso 10. Evaluación preliminar (Baseline, modelos y evaluación, 3 pts)
 - [ ] Métricas, cada una con su justificación:
