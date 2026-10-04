@@ -40,14 +40,14 @@ Notebook: `notebooks/02_eda.ipynb` (inicio)
 ## Paso 4. EDA guiado por preguntas (EDA, 4 pts)
 Notebook: `notebooks/02_eda.ipynb`
 Cada gráfico lleva una interpretación escrita, separando **lo que muestran los datos** de **lo que interpretamos**.
-- [ ] **Variable objetivo:** distribución de `price` (asimetría fuerte a la derecha); comparar con `log(price)`. Decide si el modelo usará el objetivo transformado.
-- [ ] **Tamaño vs precio:** `sqft_living` vs `price` (¿relación lineal? ¿heterocedasticidad?). Idem `grade`, `bathrooms`, `bedrooms`.
-- [ ] **Ubicación:** mapa de dispersión (`lat`/`long`) coloreado por precio; precio mediano por `zipcode`; efecto de `waterfront` y `view`.
-- [ ] **Antigüedad:** `yr_built`, `yr_renovated` (0 = nunca renovada) y su relación con el precio.
-- [ ] **Diferencias entre grupos:** precio por `condition`, `grade`, `waterfront`.
-- [ ] **Correlaciones:** matriz de correlación (Spearman) y multicolinealidad (`sqft_living` vs `sqft_above`, etc.).
-- [ ] **Anomalías visibles:** casos extremos de precio, tamaño y número de habitaciones.
-- [ ] Cerrar con una lista de "hallazgos que condicionan la preparación".
+- [x] **Variable objetivo:** distribución de `price` (asimetría fuerte a la derecha); comparar con `log(price)`. Decide si el modelo usará el objetivo transformado.
+- [x] **Tamaño vs precio:** `sqft_living` vs `price` (¿relación lineal? ¿heterocedasticidad?). Idem `grade`, `bathrooms`, `bedrooms`.
+- [x] **Ubicación:** mapa de dispersión (`lat`/`long`) coloreado por precio; precio mediano por `zipcode`; efecto de `waterfront` y `view`.
+- [x] **Antigüedad:** `yr_built`, `yr_renovated` (0 = nunca renovada) y su relación con el precio.
+- [x] **Diferencias entre grupos:** precio por `condition`, `grade`, `waterfront`.
+- [x] **Correlaciones:** matriz de correlación (Spearman) y multicolinealidad (`sqft_living` vs `sqft_above`, etc.).
+- [x] **Anomalías visibles:** casos extremos de precio, tamaño y número de habitaciones.
+- [x] Cerrar con una lista de "hallazgos que condicionan la preparación".
 
 ## Paso 5. Calidad y preparación de datos (Calidad y preparación, 4 pts)
 Notebook: `notebooks/03_calidad_y_preparacion.ipynb`
