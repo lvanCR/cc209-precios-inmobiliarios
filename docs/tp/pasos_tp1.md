@@ -110,9 +110,9 @@ Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
 - [x] Dejar claro que es exploratorio: un residuo grande puede ser un error del modelo y no una anomalía real.
 
 ## Paso 12. Estado del proyecto y plan hacia el TF1 (Análisis crítico y plan, 2 pts)
-- [ ] Hallazgos principales hasta ahora.
-- [ ] Problemas no resueltos y limitaciones (por ejemplo, un solo año de datos, ausencia de variables de entorno).
-- [ ] Plan concreto hacia el TF1, conectado con los resultados:
+- [x] Hallazgos principales hasta ahora.
+- [x] Problemas no resueltos y limitaciones (por ejemplo, un solo año de datos, ausencia de variables de entorno).
+- [x] Plan concreto hacia el TF1, conectado con los resultados:
   - clustering o PCA de zonas (si el error se concentra geográficamente);
   - Optuna + MLflow;
   - SHAP;
