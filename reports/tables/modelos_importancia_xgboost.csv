@@ -1,0 +1,20 @@
+,importancia
+grade,0.3758
+zipcode (70 niveles),0.2765
+lat,0.1092
+sqft_living,0.0795
+waterfront,0.036
+view,0.034
+sqft_living15,0.0168
+long,0.0152
+condition,0.0093
+antiguedad,0.0093
+sqft_above,0.0084
+bathrooms,0.0062
+renovada,0.0059
+sqft_lot15,0.0048
+sqft_lot,0.0046
+tiene_sotano,0.0028
+bedrooms,0.0023
+floors,0.0018
+sqft_basement,0.0018

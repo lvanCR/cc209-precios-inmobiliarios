@@ -1,0 +1,4 @@
+split,filas,proporción
+train,15130,0.7
+val,3242,0.15
+test,3241,0.15

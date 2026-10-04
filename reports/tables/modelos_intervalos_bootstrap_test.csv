@@ -1,0 +1,5 @@
+métrica,IC 95 % inferior,IC 95 % superior
+MdAPE XGBoost (%),8.2,9.1
+MAE XGBoost (USD),63073.7,70529.5
+Reducción de MAE vs B3 (%),31.8,37.4
+Reducción de MdAPE vs B3 (%),35.3,43.0

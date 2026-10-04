@@ -1,0 +1,4 @@
+comparación (A − B),Δ MdAPE (pts),Δ MAE (USD)
+Random Forest − Ridge,"-1.34  (-1.86, -0.81)","-3,572  (-5934, -1033)"
+XGBoost − Ridge,"-1.34  (-1.83, -0.85)","-8,505  (-10591, -6534)"
+XGBoost − Random Forest,"-0.00  (-0.35, 0.38)","-4,933  (-7123, -2806)"

@@ -1,0 +1,5 @@
+criterio,valor,cumple
+MdAPE en test ≤ 15 %,8.6 %,True
+MAE ≥ 15 % menor que B3 (test),34.7 %,True
+MdAPE ≥ 15 % menor que B3 (test),38.9 %,True
+Estabilidad: |MdAPE val − test| ≤ 1 punto,0.15 pts,True

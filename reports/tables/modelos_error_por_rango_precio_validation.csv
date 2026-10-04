@@ -1,0 +1,6 @@
+,rango real (miles USD),MdAPE B3,MdAPE Ridge,MdAPE Random Forest,MdAPE XGBoost,sesgo XGBoost (%),MAE XGBoost (USD)
+Q1 (más baratas),80 – 291,16.6,11.9,9.7,9.9,4.9,35132.0
+Q2,292 – 395,14.7,8.7,7.8,8.3,0.6,40673.8
+Q3,396 – 516,13.9,8.9,7.3,7.6,0.5,47840.0
+Q4,516 – 700,12.7,9.3,8.7,8.2,-2.9,63327.8
+Q5 (más caras),"701 – 4,668",14.4,11.6,9.9,9.5,-4.9,139127.1

@@ -1,0 +1,5 @@
+,MAE (USD),RMSE (USD),R² (USD),R² (log),MdAPE (%),± 20 % (%)
+B1 · Mediana global,234091.92,408336.75,-0.07,-0.01,34.33,30.18
+B2 · Lineal simple (sqft_living),174748.65,299989.33,0.42,0.48,26.68,38.11
+B3 · Regla por zona (USD/pie² × tamaño),101791.37,178862.32,0.8,0.79,14.03,65.17
+XGBoost (elegido),66446.47,126804.6,0.9,0.91,8.58,82.91

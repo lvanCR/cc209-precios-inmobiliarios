@@ -105,9 +105,9 @@ Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
 - [x] Revisión rápida de dónde falla más: por rango de precio y por zona (el análisis profundo es del TF1).
 
 ## Paso 11. Primer vistazo a anomalías (opcional en TP1)
-- [ ] Marcar como candidatas las ventas con residuo extremo (por ejemplo, |residuo| mayor al percentil 99).
-- [ ] Comparar con la detección independiente por `IsolationForest`.
-- [ ] Dejar claro que es exploratorio: un residuo grande puede ser un error del modelo y no una anomalía real.
+- [x] Marcar como candidatas las ventas con residuo extremo (por ejemplo, |residuo| mayor al percentil 99).
+- [x] Comparar con la detección independiente por `IsolationForest`.
+- [x] Dejar claro que es exploratorio: un residuo grande puede ser un error del modelo y no una anomalía real.
 
 ## Paso 12. Estado del proyecto y plan hacia el TF1 (Análisis crítico y plan, 2 pts)
 - [ ] Hallazgos principales hasta ahora.
