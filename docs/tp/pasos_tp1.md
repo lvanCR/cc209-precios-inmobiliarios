@@ -52,13 +52,13 @@ Cada gráfico lleva una interpretación escrita, separando **lo que muestran los
 ## Paso 5. Calidad y preparación de datos (Calidad y preparación, 4 pts)
 Notebook: `notebooks/03_calidad_y_preparacion.ipynb`
 Para cada punto: detectar → decidir → justificar → registrar.
-- [ ] **Faltantes:** contar nulos por columna (el dataset suele venir completo; verificarlo, no suponerlo).
-- [ ] **Duplicados:** filas completamente duplicadas vs. `id` repetidos (ventas distintas de la misma casa).
-- [ ] **Tipos:** `date` a fecha; `zipcode` como categórica, no numérica; `waterfront` binaria.
-- [ ] **Reglas lógicas:** `bedrooms = 0` o `bathrooms = 0`, la vivienda con ~33 habitaciones, `sqft_above + sqft_basement = sqft_living`, `yr_renovated < yr_built`.
-- [ ] **Outliers:** distinguir error de dato (corregir/descartar) de valor extremo legítimo (conservar). No eliminar por defecto: este es un proyecto de detección de anomalías, así que los extremos son parte del objeto de estudio.
-- [ ] **Transformaciones candidatas:** `log` del precio; `log1p` de `sqft_lot`; variables derivadas (`antiguedad`, `renovada` binaria, `tiene_sotano`).
-- [ ] Guardar el dataset limpio en `data/interim/` y registrar cada decisión en una tabla (problema, evidencia, decisión, justificación, riesgo).
+- [x] **Faltantes:** contar nulos por columna (el dataset suele venir completo; verificarlo, no suponerlo).
+- [x] **Duplicados:** filas completamente duplicadas vs. `id` repetidos (ventas distintas de la misma casa).
+- [x] **Tipos:** `date` a fecha; `zipcode` como categórica, no numérica; `waterfront` binaria.
+- [x] **Reglas lógicas:** `bedrooms = 0` o `bathrooms = 0`, la vivienda con ~33 habitaciones, `sqft_above + sqft_basement = sqft_living`, `yr_renovated < yr_built`.
+- [x] **Outliers:** distinguir error de dato (corregir/descartar) de valor extremo legítimo (conservar). No eliminar por defecto: este es un proyecto de detección de anomalías, así que los extremos son parte del objeto de estudio.
+- [x] **Transformaciones candidatas:** `log` del precio; `log1p` de `sqft_lot`; variables derivadas (`antiguedad`, `renovada` binaria, `tiene_sotano`).
+- [x] Guardar el dataset limpio en `data/interim/` y registrar cada decisión en una tabla (problema, evidencia, decisión, justificación, riesgo).
 
 ## Paso 6. Separación de datos y control de leakage (Split y leakage, 2 pts)
 - [ ] Estrategia: partición **train / validation / test** (por ejemplo 70/15/15) o **train/test + validación cruzada** sobre train. Justificar la elección.
