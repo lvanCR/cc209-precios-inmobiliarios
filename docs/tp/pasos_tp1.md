@@ -94,15 +94,15 @@ Código en `src/`, usado desde `notebooks/04_baseline_y_modelos.ipynb`
 - [x] Mismos datos, mismo split y misma semilla para todos, para que la comparación sea justa.
 
 ## Paso 10. Evaluación preliminar (Baseline, modelos y evaluación, 3 pts)
-- [ ] Métricas, cada una con su justificación:
+- [x] Métricas, cada una con su justificación:
   - **MAE** en dólares (fácil de interpretar);
   - **RMSE** (penaliza errores grandes);
   - **R²**;
   - **error porcentual mediano (MdAPE)**: el error absoluto en dólares engaña entre casas de 150 mil y de 3 millones.
-- [ ] Evaluar en validación (o en CV sobre train). **El test se toca una sola vez**, al final.
-- [ ] Tabla comparativa: baseline vs. modelos, con interpretación en lenguaje del problema ("el modelo se equivoca en promedio X %…").
-- [ ] Gráficos: real vs. predicho, residuos vs. predicho (¿heterocedasticidad?), distribución del error.
-- [ ] Revisión rápida de dónde falla más: por rango de precio y por zona (el análisis profundo es del TF1).
+- [x] Evaluar en validación (o en CV sobre train). **El test se toca una sola vez**, al final.
+- [x] Tabla comparativa: baseline vs. modelos, con interpretación en lenguaje del problema ("el modelo se equivoca en promedio X %…").
+- [x] Gráficos: real vs. predicho, residuos vs. predicho (¿heterocedasticidad?), distribución del error.
+- [x] Revisión rápida de dónde falla más: por rango de precio y por zona (el análisis profundo es del TF1).
 
 ## Paso 11. Primer vistazo a anomalías (opcional en TP1)
 - [ ] Marcar como candidatas las ventas con residuo extremo (por ejemplo, |residuo| mayor al percentil 99).
