@@ -84,5 +84,4 @@ La semilla es `RANDOM_STATE = 42`; los resultados son reproducibles. Al ejecutar
 - **TP1:** pasos 0 a 12 completos (ver `docs/tp/pasos_tp1.md`). Pendientes de entrega: presentación en PDF o PPTX, informe y acceso del docente al repositorio.
 - **TF1:** plan en el notebook `04`, sección 12.
 
-## Uso de IA generativa
-Se usó Claude (Claude Code, de Anthropic) como apoyo para escribir el código de los notebooks, redactar borradores de las interpretaciones y de la documentación, y depurar errores. _El grupo debe revisar, ajustar y confirmar esta declaración antes de la entrega: según el enunciado, las conclusiones deben poder explicarse y defenderse con la evidencia del proyecto._
+
